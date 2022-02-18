@@ -2,10 +2,22 @@ Agora que você já gerou a chave SSh. Você pode tentar descobrir a chave atrav
 
 clip < ~/.ssh/id_ed25519.pub
 
+Feito isso vá no Github webbrowser, clique na sua "foto"; 
 
+Clique em "settings"; 
 
-Uma maneira rápida de saber exatamente qual é chave é você ir até o arquivo,id_ed25519.pub, pelo atalho do Windows.
+Clique em "SSH e GPG keys";
 
-Abrí-lo como editor de texto.
+Clique em "New SSH key or Add SSH key";
 
-Copiar a chave.
+Escreva um título para a sua chave e cole a chave no campo abaixo.
+
+NÃO ESQUEÇA DE CLICAR EM "Add SSH key";
+
+E POR FIM, DIGITE SUA SENHA.
+
+VOCÊ IRÁ RECEBER UM E-MAIL CONFIRMANDO QUE FOI ADICIONADO UMA CHAVE AO SEU GITHUB.
+
+""""""""""""""""""IMPORTANTE""""""""""""""""""""""
+
+Esse procedimento deve ser realizado individualmente em todas as máquinas que irão trabalhar no projeto.
