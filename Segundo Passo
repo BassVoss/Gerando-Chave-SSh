@@ -1,0 +1,19 @@
+Adicionando a sua chave SSH ao ssh-agent.
+
+Para que a conexão entre a máquina e a nuvem funcione é preciso que o ssh-agent funcione em segundo plano e para isso é preciso digitar 
+o seguinte comando:
+
+eval "$(ssh-agent -s)"
+
+Caso o procedimento ocorra corretamente,após o comando executado aparecerá a seguinte frase:
+
+Agent pid xxxx
+
+Exemplo:
+
+eval "$(ssh-agent -s)"
+Agent pid 59566
+
+Por fim, será necesserário adicionar a chave ao ssh-agent.Para isso copie e cole o seguinte comando:
+
+ssh-add ~/.ssh/id_ed25519
