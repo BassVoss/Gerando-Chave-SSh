@@ -1,0 +1,13 @@
+Abra o Git Bash
+
+Copie e cole a link a seguir no Git Bash, apenas substituindo com o seu e-mail cadastrado.
+
+ssh-keygen -t ed25519 -C "your_email@com.br"
+
+A seguinte frase deverá aparecer:
+
+"Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm)"
+
+Pressione "Enter" 
+
+
